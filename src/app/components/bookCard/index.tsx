@@ -16,7 +16,8 @@ import { SCREENS } from "../responsive";
 
 const CardContainer = styled.div`
   min-height: 4.3em;
-  box-shadow: 0 1.3px 12px -3px rgba(0, 0, 0, 0.4);
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
   ${tw`
     flex
     justify-center
@@ -82,6 +83,7 @@ const LineSeperator = styled.span`
 `;
 
 const DateCalendar = styled(Calendar)`
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
   position: absolute;
   max-width: none;
   user-select: none;

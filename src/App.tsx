@@ -8,17 +8,16 @@ const AppContainer = styled.div`
     w-full
     h-full
     flex
-    flex-col
+    flex-col 
+    overflow-x-hidden
   `}
 `;
 
 export function App() {
   return (
-    <div>
-      <AppContainer>
-        <HomePage />
-      </AppContainer>
-    </div>
+    <AppContainer>
+      <HomePage />
+    </AppContainer>
   );
 }
 
